@@ -3,4 +3,6 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
+  // Necesario para GitHub Pages: el sitio vive en /taller-landing/
+  base: '/taller-landing/',
 });
